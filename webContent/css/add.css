@@ -1,0 +1,61 @@
+body{
+    background: url(ffflux.svg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    
+    
+    
+    margin-top: 0%;
+    
+}
+.head{
+    background-color: rgb(34, 30, 30);
+    width: 100%;
+    height: 80px;
+    color: aliceblue;
+    
+    
+   
+
+}
+.crd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 500px; /* Allow dynamic height */
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px; /* Adjust for smooth rounded corners */
+    
+    padding: 20px;
+    justify-content: space-around;
+    background: rgba(244,244,244,0.65);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(244,244,244,0.325);
+
+    -webkit-box-shadow: 3px 3px 24.5px -2px #161414;
+    -moz-box-shadow: 3px 3px 24.5px -2px #161414;
+    box-shadow: 3px 3px 24.5px -2px #161414;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+}
+a{
+    position: relative;
+    left: 250px;
+}
+.inps{
+    border-radius: 12px;
+    border-color: aliceblue;
+    margin-top: 0;
+}

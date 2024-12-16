@@ -1,0 +1,66 @@
+h1{
+    text-align:right;
+}
+.main{
+    background-image: url(ffflux.svg);
+    background-size: cover;
+
+}
+#tble{
+    display: flex;
+    justify-content: center;
+    padding: 0 3rem 0 3rem;
+}
+#head{
+    background-color: rgb(34, 30, 30);
+    color: aliceblue;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.univ{
+    width: 500px;
+    margin-left: 27rem;
+}
+#add{
+    width: 100px;
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: green;
+    color: aliceblue;
+    border-bottom: white;
+}
+.rad{
+   
+    -webkit-box-shadow: 3px 3px 24.5px -2px #161414;
+    -moz-box-shadow: 3px 3px 24.5px -2px #161414;
+    box-shadow: 3px 3px 24.5px -2px #161414;
+}
+tr:hover{
+    background-color: #5d5959;
+}
+#upd{
+    border-radius: 15px;
+    background-color: rgb(16, 154, 16);
+    color: aliceblue;
+    border-color: aliceblue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#upd:hover{
+    background-color: rgb(154, 241, 154);
+}
+#dlt{
+    border-radius: 15px;
+    background-color: rgb(218, 13, 20);
+    color: aliceblue;
+    border-color: aliceblue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#dlt:hover{
+    background-color: rgb(237, 93, 93);
+}

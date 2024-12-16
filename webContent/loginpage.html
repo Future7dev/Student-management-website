@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/logins.css">
+</head>
+<body>
+    <div class="crd1">
+        <div class="options">
+            <h1 class="typing">Welcome!</h1>
+            <button class="logbtn btn">Login</button>
+            <button class="signbtn btn">Sign Up</button>
+        </div>
+    </div>
+    <div class="crd2">
+        <form action="StudenController" class="frm">
+            <input type="hidden" name="command" value="LOGIN">
+            <label for="userin"> Enter the username:</label><br>
+            <input type="text" placeholder="username" id="userin"  name="username"/><br>
+            <label for="passin">Enter password:</label><br>
+            <input type="password" placeholder="password" id="passin" name="password"/><br>
+            <button class="user">Submit</button>
+        </form>
+    </div>
+    <div class="crd3">
+        <form action="StudenController" class="frm">
+            <input type="hidden" name="command" value="SIGNUP">
+            <label for="fname"> Enter your first name:</label><br>
+            <input type="text" placeholder="Enter first name" id="fname" class="inpe" name="fname"/><br>
+
+            <label for="lname">Enter your last name:</label><br>
+            <input type="text" placeholder="Enter last name" id="lname" class="inpe" name="lname"/><br>
+
+            <label for="pass">Enter password:</label><br>
+            <input type="text" placeholder="Enter password" id="pass" class="inpe" name="passw"/><br>
+
+
+            <button class="user">Submit</button>
+        </form>
+    </div>
+    <script src="css/loginj.js"></script>
+</body>
+</html>
